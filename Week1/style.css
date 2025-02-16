@@ -1,0 +1,108 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Heading */
+h1 {
+    color: #333;
+}
+
+/* Paragraph Styling */
+p {
+    font-family: 'Georgia', serif;
+    line-height: 1.6;
+    text-align: justify;
+    width: 60%;
+    margin: 10px auto;
+}
+
+/* Image & Caption */
+.image-container {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.image-container img {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.caption {
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Styled Button */
+.styled-button {
+    padding: 10px 20px;
+    border: 2px solid #333;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.styled-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styled Table */
+.styled-table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.styled-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Styled Form */
+.styled-form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.styled-form label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.styled-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.styled-form button {
+    width: 100%;
+    margin-top: 15px;
+}
